@@ -1,0 +1,33 @@
+
+
+html{
+background-color: navy;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+     padding:30px;
+    text-align: center;
+    background-color:blue;
+
+    
+}
+
+
+div{
+    margin: 250px;
+    width: 60%;
+    border: 10px gray;
+    border-style: dashed;
+    padding: 20px;
+    text-align: center;
+    font-size: 5 em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:black;
+    color: rgb(153, 255, 0);
+    font-size: 1000%;
+
+
+}
