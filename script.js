@@ -36,7 +36,7 @@ function countdownClock() {
     }
 
     /* If statement to print to the clock "Times Up!"" when the clock hits zero" */
-    if (timerDifference < 0) {
+    if (timerDifference <= new Date) {
         document.getElementById("countdownClock").innerHTML = "Times Up!";
     }
     else {
