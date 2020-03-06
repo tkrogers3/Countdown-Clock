@@ -36,13 +36,11 @@ function countdownClock() {
         seconds = "0" + seconds;
     }
 
-    /* If statement to print to the clock "Times Up!"" when the clock hits zero.
-  Else pulls the information for time to the element countdownClock in HTML*/
-    
-    if (timerDifference < 0) {
-        document.getElementById("countdownClock").innerHTML = "Times Up!";
-    }
-    else {
+
+    /* If statement to print to the clock "Times Up!"" when the clock hits zero" */
+    if (timerDifference <= new Date) {
+      document.getElementById("countdownClock").innerHTML = "Times Up!";
+    } else {
         document.getElementById("countdownClock").innerHTML = hours + ":" + minutes + ":" + seconds + " ";
     }
 
